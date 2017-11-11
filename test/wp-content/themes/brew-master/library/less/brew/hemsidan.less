@@ -1,0 +1,143 @@
+
+
+.site-wrapper {
+  // max-width: 1440px;
+  margin: 0 auto;
+  background: white;
+  padding: 0 75px;
+}
+
+
+.homebanner {
+
+
+
+  padding-top: 30px;
+  text-align: center;
+  height: 75vh;
+  background: #364A5C;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  @media (min-width: @screen-xs) {
+    padding-top: 70px;
+
+
+  }
+
+  .hero-text {
+    h1 {
+      font-size: 50px;
+      color: #fff;
+      margin-bottom: 10px;
+      font-family:edina;
+      font-weight: bold;
+    }
+  }
+
+
+
+}
+
+.block-intro {
+  margin: 70px auto;
+
+}
+
+.block-porto {
+  background: @porto;
+  padding: 35px 0;
+  text-align: center;
+  color: #fff;
+
+  .container {
+    .carousel {
+      min-height:700px;
+
+      .carousel-inner {
+        width: 80%;
+        margin: 0 auto;
+        min-height: 800px;
+      }
+
+      .carousel-indicators{
+        margin-bottom: 35px;
+        bottom: 0;
+
+        position: relative;
+        margin-left: 0;
+        left: 0;
+        width: 100%;
+
+        background-size: contain;
+
+        li {
+          width: 50px;
+          height: 50px;
+          background-size: contain !important;
+          border: none;
+          border-radius:0px;
+          margin: 0 5px;
+          transition: .3s;
+
+          // -webkit-filter: brightness(50%) invert(1);
+          // -moz-filter: brightness(50%) invert(1);
+          // -o-filter: brightness(50%) invert(1);
+          // filter: brightness(50%) invert(1);
+
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);
+
+
+          &:hover {
+
+            // -webkit-filter: brightness(1) invert(0);
+            // -moz-filter: brightness(1) invert(0);
+            // -o-filter: brightness(1) invert(0);
+            // filter: brightness(1) invert(0);
+
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+
+          }
+
+
+        }
+
+        .active {
+          -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);
+        }
+
+        .js {
+          background: url('../images/jss/js.png');
+        }
+        .jq {
+          background: url('../images/jss/jq.png');
+        }
+        .wp {
+          background: url('../images/jss/wp.png');
+        }
+        .angular {
+          background: url('../images/jss/angular.png');
+        }
+        .react {
+          background: url('../images/jss/react.png');
+        }
+        .pho {
+          background: url('../images/jss/pho.png');
+        }
+      }
+    }
+  }
+}
+
+.btn-lg {
+  border-radius: 0px;
+}
+
+
+.block-invert {
+  overflow-x: hidden;
+}

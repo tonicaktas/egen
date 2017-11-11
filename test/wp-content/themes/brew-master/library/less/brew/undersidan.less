@@ -1,0 +1,80 @@
+
+
+.undersida-img {
+  height:40vh;
+}
+
+
+.intro-text {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top:20vh;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 300;
+
+  @media (max-width: @screen-sm-max) {
+
+  font-size:22px;
+
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+
+}
+
+.subpage-container {
+  padding:110px 0;
+  background: #fff;
+
+  .container {
+
+    @media (max-width: @screen-sm-max) {
+
+  text-align: center;
+
+    }
+
+    h2 {
+      &:after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 50%;
+            margin-top: 16px;
+            background: #b4c54d;
+            @media (max-width: @screen-sm-max) {
+
+            width: 100%;
+
+            }
+
+      }
+    }
+    a {
+      color: @primary-color;
+    }
+    center {
+      text-align: center;
+      padding: 70px 0 140px;
+
+      iframe {
+        @media (max-width: @screen-xs-max) {
+          width: 100%;
+        }
+
+        @media (min-width: @screen-xs) {
+        width: 50%;
+        }
+      }
+
+
+
+
+    }
+  }
+}

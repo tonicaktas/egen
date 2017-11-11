@@ -1,0 +1,203 @@
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Footer
+
+******************************************************************/
+
+#footer {
+  border-top: 5px solid @brand-primary;
+  // background: url('../images/footer-bg.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background: @porto;
+  padding-top: 30px;
+  margin-top: 60px;
+  clear: both;
+  color: #aaa;
+  h4 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  a {color: #aaa;}
+  li {
+    padding: 7px 0;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    margin: 0px 0px;
+  }
+  .widgettitle {
+    margin: 0;
+    padding: 0 0 15px 0;
+    border-bottom: none;
+  }
+}
+
+#footer-wrapper {
+  margin-bottom: 30px;
+
+
+      div {
+        label {
+          position: relative;
+          top:23px;
+          transition: .5s;
+          margin-bottom: 0;
+          padding-left: 7px;
+        }
+        input {
+          background: transparent;
+          border: none;
+          border-bottom:1px solid white;
+          border-top:1px solid white;
+          margin-bottom: 15px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        textarea {
+          background: transparent;
+          border: none;
+          border-bottom:1px solid white;
+          border-top:1px solid white;
+          height:153px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        .wpcf7-submit {
+          width: 100%;
+          background: @secondary-color;
+          transition: .5s;
+
+          &:hover {
+            background: transparent;
+          }
+        }
+      }
+
+      // :hover span {
+      // 	width: 3.6rem;
+      // 	height: 3.6rem;
+      // 	border-radius: 3.6rem;
+      // 	margin: -1.8rem;
+      // }
+      // .twitter span {
+      // 	background-color: #55c5f5;
+      // }
+
+      .row {
+        .link-icons {
+          padding-top:20px;
+          a {
+            display:block;
+            transition: .3s;
+
+            i {
+              margin-right:10px;
+              margin-bottom: 0px;
+              width: 40px;
+              height:40px;
+              text-align: center;
+              font-size: 18px;
+              border-radius: 50%;
+              background: transparent;
+              line-height: 40px;
+              border:1px solid transparent;
+              transition: .3s;
+
+            }
+
+
+
+            &:hover {
+              color: white;
+              text-decoration: none;
+
+
+              i {
+                  border:1px solid white;
+                  color: white;
+              }
+              .fa-twitter  {
+              	background-color: #55c5f5;
+              }
+              .fa-facebook  {
+              	background-color: #3B5998;
+              }
+              .fa-github  {
+              	background-color: #24292E;
+              }
+              .fa-linkedin-square  {
+              	background-color: #1d82d4;
+              }
+              .fa-instagram {
+              	background-color: #DE2A89;
+              }
+
+
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sub-floor {
+  color: #aaa;
+  background: #292929;
+  padding: 10px 0;
+}
+
+.copyright {
+  text-align: center;
+  @media (min-width: @screen-md) {
+    text-align: left;
+  }
+}
+
+.attribution {
+  text-align: center;
+  @media (min-width: @screen-md) {
+    text-align: right;
+  }
+}
+
+.widgetFooter {
+  padding-bottom: 25px;
+  @media (min-width: @screen-md) {
+    padding-bottom: 0px;
+  }
+}
+
+.wpcf7-response-output {
+  display: block;
+    position: absolute;
+    bottom: -30px;
+    width: 90%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
